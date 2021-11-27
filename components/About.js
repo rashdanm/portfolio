@@ -56,7 +56,7 @@ const About = () => {
             View CV
           </a>
         </button>
-        <h1 className="pt-6 pb-5 text-xl font-semibold">Skills</h1>
+        <h1 className="pt-10 text-xl font-semibold pb-7">Skills</h1>
         <div className="md:flex md:flex-row md:justify-between">
           <div>
             <Skill logo="reactjs" name="React" />
