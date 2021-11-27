@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Skill = ({ logo, name }) => {
   return (
-    <div className="flex align-center pb-3">
+    <div className="flex align-center pb-4">
       <Image
         className=""
         src={`/images/logos/${logo}.png`}
@@ -10,7 +10,7 @@ const Skill = ({ logo, name }) => {
         height={25}
         width={26}
       />
-      <span className="text-black pl-1">{name}</span>
+      <span className="text-black pl-3">{name}</span>
     </div>
   );
 };

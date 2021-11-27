@@ -1,25 +1,28 @@
 import Image from "next/image";
-import rashdan from "../assets/about.jpg";
+import rashdan from "../assets/rashdan.jpg";
 import Skill from "./Skill";
 
 const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col w-full lg:justify-center lg:flex-row bg-white px-5"
+      className="flex flex-col w-full lg:justify-center lg:flex-row bg-white px-5 pb-5"
     >
       <div className="flex flex-col justify-center mt-10 lg:w-1/2">
-        <Image
-          src={rashdan}
-          alt="rashdan"
-          width={350}
-          height={350}
-          objectFit="contain"
-          objectPosition="center bottom"
-        />
+        <div className="">
+          <Image
+            className="rounded-full border-2 border-green-700"
+            src={rashdan}
+            alt="rashdan"
+            width={350}
+            height={350}
+            objectFit="contain"
+            objectPosition="center bottom"
+          />
+        </div>
       </div>
       <div className="lg:w-1/2">
-        <h2 className="pt-10 pb-6 font-bold text-7xl">
+        <h2 className="pt-14 pb-6 font-bold text-7xl">
           About{" "}
           <span className="text-green-700 transition ease-in duration-5000">
             me
@@ -53,16 +56,24 @@ const About = () => {
             View CV
           </a>
         </button>
-        <h1 className="pt-6 pb-3 text-lg font-semibold">Skills</h1>
-        <Skill logo="reactjs" name="React" />
-        <Skill logo="nextjs" name="Next JS" />
-        <Skill logo="node" name="Node JS" />
-        <Skill logo="javascript" name="Javascript" />
-        <Skill logo="tailwind" name="Tailwind" />
-        <Skill logo="sass" name="Sass" />
-        <Skill logo="styledcomponents" name="Styled Components" />
-        <Skill logo="css" name="CSS" />
-        <Skill logo="html" name="HTML" />
+        <h1 className="pt-6 pb-5 text-xl font-semibold">Skills</h1>
+        <div className="md:flex md:flex-row md:justify-between">
+          <div>
+            <Skill logo="reactjs" name="React" />
+            <Skill logo="nextjs" name="Next JS" />
+            <Skill logo="node" name="Node JS" />
+            <Skill logo="javascript" name="Javascript" />
+          </div>
+          <div>
+            <Skill logo="tailwindcss" name="Tailwind" />
+            <Skill logo="sass" name="Sass" />
+            <Skill logo="styledcomp" name="Styled Components" />
+          </div>
+          <div>
+            <Skill logo="css" name="CSS" />
+            <Skill logo="html" name="HTML" />
+          </div>
+        </div>
       </div>
     </div>
   );
