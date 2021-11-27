@@ -6,23 +6,23 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col w-full lg:justify-center lg:flex-row bg-white px-5 pb-5"
+      className="flex flex-col w-full px-5 pb-5 bg-white lg:justify-center lg:flex-row lg:h-screen"
     >
-      <div className="flex flex-col justify-center mt-10 lg:w-1/2">
-        <div className="">
+      <div className="flex flex-col justify-center mt-10 lg:w-1/2 lg:justify-start lg:pt-6 ">
+        <div className="border-4 border-green-700 rounded-full w-96 h-96 ">
           <Image
-            className="rounded-full border-2 border-green-700"
+            className="border-green-700 rounded-full"
             src={rashdan}
             alt="rashdan"
-            width={350}
-            height={350}
-            objectFit="contain"
+            width={700}
+            height={700}
+            objectFit="fill"
             objectPosition="center bottom"
           />
         </div>
       </div>
       <div className="lg:w-1/2">
-        <h2 className="pt-14 pb-6 font-bold text-7xl">
+        <h2 className="pb-6 font-bold pt-14 text-7xl">
           About{" "}
           <span className="text-green-700 transition ease-in duration-5000">
             me
