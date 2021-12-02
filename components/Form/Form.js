@@ -117,7 +117,7 @@ const Form = () => {
         }}
         name="email"
       />
-      {errors?.mail && (
+      {errors?.email && (
         <p className="text-red-600">Please enter your email address</p>
       )}
 
