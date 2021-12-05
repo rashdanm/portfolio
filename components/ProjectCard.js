@@ -13,7 +13,7 @@ const ProjectCard = ({
   code,
 }) => {
   return (
-    <div class="w-full md:w-96 justify-center items-center bg-white shadow-lg rounded-lg flex flex-col m-8 border-4 border-green-700">
+    <div class="mb-4 w-full md:w-96 justify-center items-center bg-white shadow-lg rounded-lg flex flex-col md:m-8 border-4 border-green-700">
       <div class="xl:w-full md:w-full p-1">
         <div class="bg-white p-1 rounded-lg">
           <a href={website} target="_blank" rel="noopener noreferrer">

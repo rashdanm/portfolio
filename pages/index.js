@@ -9,8 +9,8 @@ import TopNav from "../components/TopNav";
 
 export default function Home() {
   return (
-    <div className="bg-white w-screen md:flex md:justify-center">
-      <div className="w-full bg-green-200 md:w-10/12">
+    <div className="w-screen bg-white md:flex md:justify-center">
+      <div className="w-full bg-green-200 md:w-full">
         <Head>
           <title>Rashdan's portfolio</title>
           <link rel="icon" href="/favicon.ico"></link>

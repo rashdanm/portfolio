@@ -8,14 +8,16 @@ const TopNav = () => {
     { id: 4, navId: "contact", navLink: "Contact" },
   ];
   return (
-    <div className="bg-white md:w-10/12 hidden md:flex md:justify-end md:fixed m-0 z-50">
-      {navLinks.map((link) => (
-        <Link activeClass="active" to={link.navId} spy={true} smooth={true}>
-          <div className="cursor-pointer hover:text-green-700 pl-6 py-4 font-semibold">
-            {link.navLink}
-          </div>
-        </Link>
-      ))}
+    <div className="">
+      <div className="z-50 hidden pr-5 m-0 bg-white md:w-full md:flex md:justify-end md:fixed">
+        {navLinks.map((link) => (
+          <Link activeClass="active" to={link.navId} spy={true} smooth={true}>
+            <div className="py-4 pl-6 font-semibold cursor-pointer hover:text-green-700 ">
+              {link.navLink}
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

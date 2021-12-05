@@ -5,14 +5,14 @@ const HomeScreen = () => {
   return (
     <div
       id="home"
-      className="flex flex-col justify-center w-full h-screen px-5 bg-white"
+      className="flex flex-col justify-center w-full h-screen bg-white"
     >
-      <div className="py-3 font-bold text-7xl">
+      <div className="px-5 py-3 font-bold text-7xl">
         Hello, I'm <></>
         <div className="inline-block text-green-700">Rashdan</div>.
       </div>
-      <div className="text-lg">
-        {/* A front end junior developer based in London, UK. */}
+
+      <div className="px-5 text-lg">
         <Typewriter
           options={{
             autoStart: true,
@@ -23,7 +23,8 @@ const HomeScreen = () => {
           }}
         />
       </div>
-      <div className="flex pt-5">
+
+      <div className="flex px-5 pt-6">
         <div className="pr-3 hover:text-red-700">
           <a
             href="https://www.linkedin.com/in/rashdan-muhammad-581316227/"
@@ -61,7 +62,7 @@ const HomeScreen = () => {
       </div>
       <div className="pt-10">
         <Link activeClass="active" to="work" spy={true} smooth={true}>
-          <button class=" py-3 pl-4 pr-6 bg-transparent border-2 border-green-700 text-green-700 text-lg rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color duration-300 md:hover:animate-bounce">
+          <button class="ml-5 py-3 pl-4 pr-6 bg-transparent border-2 border-green-700 text-green-700 text-lg rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color duration-300 md:hover:animate-bounce">
             View Projects
           </button>
         </Link>
