@@ -6,7 +6,7 @@ const Contact = () => {
       id="contact"
       className="flex flex-col w-full px-5 py-5 bg-white lg:flex-row lg:h-screen lg:items-start"
     >
-      <div className="flex flex-col justify-center lg:w-2/4 lg:pt-6 lg:pr-10">
+      <div className="flex flex-col justify-center lg:w-2/4 md:pt-6 lg:pr-10">
         <div className="py-3 font-bold text-7xl lg:pt-6">
           Stay <span className="text-green-700">Connected</span>.
         </div>

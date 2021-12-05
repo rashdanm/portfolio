@@ -20,11 +20,12 @@ const ProjectCard = ({
             alt="Image Size 720x400"
           /> */}
           <Image
-            className="rounded-lg"
+            className="border-2 border-green-700 rounded-lg"
             src={`/images/projects/${project}.png`}
             alt="skillsLogo"
             height={350}
             width={700}
+            priority
           />
 
           <h2 class="text-xl text-black title-font mb-2 font-bold">{title}</h2>
@@ -35,30 +36,34 @@ const ProjectCard = ({
               alt="skillsLogo"
               height={25}
               width={26}
+              priority
             />
             <Image
               className="hover:animate-spin"
               src={`/images/logos/${icon2}.png`}
               height={25}
               width={26}
+              priority
             />
             <Image
               className="hover:animate-spin"
               src={`/images/logos/${icon3}.png`}
               height={25}
               width={26}
+              priority
             />
             <Image
               className="hover:animate-spin"
               src={`/images/logos/${icon4}.png`}
               height={25}
               width={26}
+              priority
             />
           </div>
           <h5 className="mt-3 font-semibold text-green-700">Brief</h5>
           <p class="leading-relaxed text-base">{brief}</p>
           <h5 className="mt-3 font-semibold text-green-700">
-            Features & Technology
+            Technology & Tools
           </h5>
           <p class="leading-relaxed text-base pb-5">{features}</p>
         </div>

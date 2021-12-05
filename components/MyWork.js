@@ -33,7 +33,6 @@ const MyWork = () => {
             autoStart: true,
             start: 3000,
             loop: false,
-            delay: 6000,
             strings: "More projects coming soon...",
           }}
         />

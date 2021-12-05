@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="flex flex-col w-full px-5 pb-5 bg-white lg:justify-center lg:flex-row xl:h-screen"
     >
-      <div className="flex flex-col justify-center mt-10 lg:w-1/2 lg:justify-start lg:pt-6 ">
+      <div className="flex flex-col justify-center mt-10 lg:w-1/2 lg:justify-start md:pt-6 ">
         <div className="border-4 border-green-700 rounded-full w-96 h-96 ">
           <Image
             className="border-green-700 rounded-full"
@@ -19,6 +19,7 @@ const About = () => {
             height={700}
             objectFit="fill"
             objectPosition="center bottom"
+            priority
           />
         </div>
       </div>
@@ -49,8 +50,8 @@ const About = () => {
         <p className="pb-4">
           Hi, I'm Rashdan and I'm a self taught developer from London. I
           previously worked in the education sector as a teacher, and whilst I
-          still love teaching, I have now decided to follow my dream and pursue
-          a career in programming.
+          still love teaching, I've now decided to follow my dream and pursue a
+          career in programming.
         </p>
         <p className="pb-4">
           I've learnt to code using many platforms, including Codecademy, Udemy,
@@ -65,9 +66,9 @@ const About = () => {
           whether it's on the back-end of development or even learning new
           framworks and languages.
         </p>
-        <button class="p-2 pl-5 pr-5 pt-2 bg-transparent border-2 border-green-700 text-green-700 text-lg rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color duration-300">
+        <button class="p-2 pl-5 pr-5 pt-2 bg-transparent border-2 border-green-700 text-green-700 text-lg rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color duration-300 lg:hover:animate-bounce">
           <a
-            href="/document.pdf"
+            href="/cv-rashdan.pdf"
             alt="alt text"
             target="_blank"
             rel="noopener noreferrer"

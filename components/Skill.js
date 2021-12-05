@@ -9,6 +9,7 @@ const Skill = ({ logo, name }) => {
         alt=""
         height={25}
         width={26}
+        priority
       />
       <span className="pl-3 text-black">{name}</span>
     </div>
