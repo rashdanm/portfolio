@@ -8,7 +8,8 @@ const HomeScreen = () => {
       className="flex flex-col justify-center w-full h-screen bg-white lg:px-20"
     >
       <div className="px-5 py-3 font-bold text-7xl">
-        Hello, I'm <span className="inline-block text-green-700">Rashdan</span>.
+        Hello, {`I'm`}{" "}
+        <span className="inline-block text-green-700">Rashdan</span>.
       </div>
 
       <div className="px-5 text-lg">

@@ -102,7 +102,7 @@ const Form = () => {
         name="name"
       />
       {errors?.name && (
-        <p className="text-red-600">Sorry, didn't catch your name</p>
+        <p className="text-red-600">Sorry, {`didn't`} catch your name</p>
       )}
 
       <Label labelFor="email" value="Email" />

@@ -13,7 +13,7 @@ export default function Home() {
     <div className="w-screen bg-white md:flex md:justify-center">
       <div className="w-full bg-green-200 md:w-full">
         <Head>
-          <title>Rashdan's portfolio</title>
+          <title>{`Rashdan's`} portfolio</title>
           <link rel="shortcut icon" href="static/favicon.ico" />
         </Head>
         <TopNav />

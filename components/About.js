@@ -48,23 +48,23 @@ const About = () => {
         </div>
         <div className="max-w-4xl">
           <p className="pb-4 pr-5">
-            Hi, I'm Rashdan and I'm a self taught developer from London. I
-            previously worked in the education sector as a teacher, and whilst I
-            still love teaching, I've now decided to follow my dream and pursue
-            a career in programming.
+            Hi, {`I'm`} Rashdan and {`I'm`} a self taught developer from London.
+            I previously worked in the education sector as a teacher, and whilst
+            I still love teaching, {`I've`} now decided to follow my dream and
+            pursue a career in programming.
           </p>
           <p className="pb-4 pr-5">
-            I've learnt to code using many platforms, including Codecademy,
+            {`I've`} learnt to code using many platforms, including Codecademy,
             Udemy, Youtube and other resources such as Stack Overflow, and of
             course playing around with code, enduring countless hours and days
             of trial and error.
           </p>
           <p className="pb-4 pr-5">
             Whilst most of my learning has been focused on the front-end, more
-            so React, I'm always looking to improve and get more tools under my
-            belt. Therefore, I'm more than open to learning new skills and
-            technologies, whether it's on the back-end of development or even
-            learning new framworks and languages.
+            so React, {`I'm`} always looking to improve and get more tools under
+            my belt. Therefore, I'm more than open to learning new skills and
+            technologies, whether {`it's`} on the back-end of development or
+            even learning new framworks and languages.
           </p>
         </div>
         <button className="p-2 pt-2 pl-5 pr-5 text-lg text-green-700 duration-300 bg-transparent border-2 border-green-700 rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color lg:hover:animate-bounce">
