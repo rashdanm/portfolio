@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Skill = ({ logo, name }) => {
   return (
-    <div className="flex align-center pb-4">
+    <div className="flex pb-4 align-center">
       <Image
-        className=""
+        className="hover:animate-spin"
         src={`/images/logos/${logo}.png`}
-        alt="skillsLogo"
+        alt=""
         height={25}
         width={26}
       />
-      <span className="text-black pl-3">{name}</span>
+      <span className="pl-3 text-black">{name}</span>
     </div>
   );
 };

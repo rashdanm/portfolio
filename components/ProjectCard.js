@@ -20,7 +20,7 @@ const ProjectCard = ({
             alt="Image Size 720x400"
           /> */}
           <Image
-            className=""
+            className="rounded-lg"
             src={`/images/projects/${project}.png`}
             alt="skillsLogo"
             height={350}
@@ -30,26 +30,26 @@ const ProjectCard = ({
           <h2 class="text-xl text-black title-font mb-2 font-bold">{title}</h2>
           <div class="w-1/2 flex justify-between">
             <Image
-              className=""
+              className="hover:animate-spin"
               src={`/images/logos/${icon1}.png`}
               alt="skillsLogo"
               height={25}
               width={26}
             />
             <Image
-              className=""
+              className="hover:animate-spin"
               src={`/images/logos/${icon2}.png`}
               height={25}
               width={26}
             />
             <Image
-              className=""
+              className="hover:animate-spin"
               src={`/images/logos/${icon3}.png`}
               height={25}
               width={26}
             />
             <Image
-              className=""
+              className="hover:animate-spin"
               src={`/images/logos/${icon4}.png`}
               height={25}
               width={26}

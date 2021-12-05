@@ -92,7 +92,7 @@ const Form = () => {
   };
   return (
     <form
-      className="flex flex-col w-full px-1 py-8 bg-white rounded-lg lg:w-3/4"
+      className="flex flex-col w-full px-1 py-8 bg-white rounded-lg lg:w-full"
       onSubmit={handleSubmit}
     >
       <Label labelFor="name" value="Name" />

@@ -1,18 +1,20 @@
 import ProjectCard from "./ProjectCard";
 import projectInfo from "../data/projectInfo";
+import Typewriter from "typewriter-effect";
 
 const MyWork = () => {
   return (
     <div
       id="work"
-      className="flex flex-col items-center justify-center w-full px-5 bg-white lg:h-screen"
+      className="flex flex-col items-center justify-center w-full px-5 pt-6 bg-white"
     >
-      <div className="pb-6 font-bold text-7xl">
+      <div className="pb-6 font-bold text-7xl md:pt-20">
         check out my <span className="text-green-700">work</span>.
       </div>
       <div className="flex flex-col items-center justify-center w-full lg:items-start lg:justify-items-center lg:flex lg:flex-row">
         {projectInfo.map((item) => (
           <ProjectCard
+            key={item.id}
             title={item.title}
             project={item.file}
             brief={item.brief}
@@ -24,7 +26,18 @@ const MyWork = () => {
           />
         ))}
       </div>
-      <div className="py-10">More projects coming soon...</div>
+      {/* <div className="py-10">More projects coming soon...</div> */}
+      <div className="py-10">
+        <Typewriter
+          options={{
+            autoStart: true,
+            start: 3000,
+            loop: false,
+            delay: 6000,
+            strings: "More projects coming soon...",
+          }}
+        />
+      </div>
     </div>
   );
 };
