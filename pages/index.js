@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full bg-green-200 md:w-full">
         <Head>
           <title>Rashdan's portfolio</title>
-          <link rel="icon" href="/favicon.ico"></link>
+          <link rel="shortcut icon" href="static/favicon.ico" />
         </Head>
         <TopNav />
         <HomeScreen />
