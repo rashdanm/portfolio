@@ -5,13 +5,15 @@ const projectInfo = [
     image: "mkfaim",
     title: "MK Faim Photography",
     brief:
-      "Still in the works, mkfaim.co.uk is a real life project, built for a wedding photographer. Whilst the website is still under development, users are still able to view the photographer's work and make enquiries via a fully functional contact form.",
+      "Still in the works, mkfaim.co.uk is a real life project, built for a wedding photographer. Although still in development, users are able to view the photographer's work and make enquiries via a fully functional contact form.",
     features:
       "Next JS - Next router - CSS modules - React-lightbox - React-slick - Sendgrid",
     icon1: "nextjs",
     icon2: "reactjs",
     icon3: "javascript",
     icon4: "css",
+    website: "https://www.mkfaim.co.uk/",
+    code: "https://github.com/rashdanm/mkfaim-next",
   },
   {
     id: 2,
@@ -25,6 +27,8 @@ const projectInfo = [
     icon2: "styledcomp",
     icon3: "javascript",
     icon4: "vsc",
+    website: "https://selektmovie.vercel.app/",
+    code: "https://github.com/rashdanm/tmdb-movie-app",
   },
   {
     id: 3,
@@ -39,6 +43,8 @@ const projectInfo = [
     icon2: "tailwind",
     icon3: "sendgrid",
     icon4: "vercel",
+    website: "https://www.rashdan.co.uk/",
+    code: "https://github.com/rashdanm/portfolio",
   },
 ];
 

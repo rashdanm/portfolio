@@ -9,24 +9,47 @@ const ProjectCard = ({
   icon2,
   icon3,
   icon4,
+  website,
+  code,
 }) => {
   return (
-    <div class="w-full md:w-96 justify-center items-center bg-white shadow-lg rounded-lg flex flex-col m-8 border-2 border-green-700">
+    <div class="w-full md:w-96 justify-center items-center bg-white shadow-lg rounded-lg flex flex-col m-8 border-4 border-green-700">
       <div class="xl:w-full md:w-full p-1">
         <div class="bg-white p-1 rounded-lg">
-          {/* <img
-            class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 rounded w-full object-cover object-center mb-2"
-            src="https://wisatamuda.com/wp-content/uploads/2019/02/1-Golden-Gate-Bridge-Gambar-dan-Foto-Tempat-Wisata-Terbaik-di-San-Fransisco-USA.jpg"
-            alt="Image Size 720x400"
-          /> */}
-          <Image
-            className="border-2 border-green-700 rounded-lg"
-            src={`/images/projects/${project}.png`}
-            alt="skillsLogo"
-            height={350}
-            width={700}
-            priority
-          />
+          <a href={website} target="_blank" rel="noopener noreferrer">
+            <Image
+              className="rounded-lg cursor-pointer hover:animate-pulse"
+              src={`/images/projects/${project}.png`}
+              alt="skillsLogo"
+              height={400}
+              width={700}
+              layout="responsive"
+              priority
+            />
+          </a>
+          <div className="flex justify-start">
+            <div className="flex items-center justify-center w-1/3 py-1 my-3 mr-2 text-white duration-300 bg-green-700 border-2 border-green-700 rounded-lg cursor-pointer py-2border-3 md:hover:animate-bounce">
+              <a
+                className=""
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view
+              </a>
+            </div>
+
+            <div className="flex items-center justify-center w-1/3 py-1 my-3 mr-2 text-white duration-300 bg-green-700 border-2 border-green-700 rounded-lg cursor-pointer py-2border-3 md:hover:animate-bounce">
+              <a
+                className=""
+                href={code}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                code
+              </a>
+            </div>
+          </div>
 
           <h2 class="text-xl text-black title-font mb-2 font-bold">{title}</h2>
           <div class="w-1/2 flex justify-between">

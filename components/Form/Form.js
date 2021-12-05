@@ -33,7 +33,7 @@ const Form = () => {
       tempErrors["subject"] = true;
       isValid = false;
     }
-    if (message.length <= 0) {
+    if (message.length <= 50) {
       tempErrors["message"] = true;
       isValid = false;
     }
@@ -142,11 +142,11 @@ const Form = () => {
         }}
         name="message"
       />
+      {errors?.message && (
+        <p className="text-red-600">Message requires at least 50 characters.</p>
+      )}
       <div class="flex flex-row items-center justify-start">
         <ButtonSend buttonText={buttonText} />
-        {errors?.message && (
-          <p className="text-red-500">Message body cannot be empty.</p>
-        )}
       </div>
       <div className="text-left">
         {showSuccessMessage && (

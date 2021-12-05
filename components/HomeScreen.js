@@ -9,10 +9,7 @@ const HomeScreen = () => {
     >
       <div className="py-3 font-bold text-7xl">
         Hello, I'm <></>
-        <div className="inline-block text-green-700 md:hover:animate-bounce">
-          Rashdan
-        </div>
-        .
+        <div className="inline-block text-green-700">Rashdan</div>.
       </div>
       <div className="text-lg">
         {/* A front end junior developer based in London, UK. */}

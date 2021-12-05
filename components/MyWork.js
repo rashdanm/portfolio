@@ -23,6 +23,8 @@ const MyWork = () => {
             icon2={item.icon2}
             icon3={item.icon3}
             icon4={item.icon4}
+            website={item.website}
+            code={item.code}
           />
         ))}
       </div>
