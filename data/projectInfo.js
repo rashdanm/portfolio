@@ -10,8 +10,8 @@ const projectInfo = [
       "Next JS - Next router - CSS modules - React-lightbox - React-slick - Sendgrid",
     icon1: "nextjs",
     icon2: "reactjs",
-    icon3: "javascript",
-    icon4: "css",
+    icon3: "css",
+    icon4: "sendgrid",
     website: "https://www.mkfaim.co.uk/",
     code: "https://github.com/rashdanm/mkfaim-next",
   },
@@ -25,8 +25,8 @@ const projectInfo = [
     features: "React JS - CSS styled componenets - React scroll - Axios",
     icon1: "reactjs",
     icon2: "styledcomp",
-    icon3: "javascript",
-    icon4: "vsc",
+    icon3: "axios",
+    icon4: "node",
     website: "https://selektmovie.vercel.app/",
     code: "https://github.com/rashdanm/tmdb-movie-app",
   },
@@ -38,14 +38,13 @@ const projectInfo = [
     brief:
       "My portfolio website allows users to read information about myself and view some of my projects along with the source code. Users can drop me a message via the contact form and can also find a link to my GitHub and LinkedIn profile.",
     features:
-      "Next JS - Tailwind CSS - React-scroll - Typewriter-effect - Sendgrid",
+      "Next JS - Tailwind CSS - React-scroll - Typewriter-effect - Framer",
     icon1: "nextjs",
     icon2: "tailwind",
-    icon3: "sendgrid",
+    icon3: "framer",
     icon4: "vercel",
     website: "https://www.rashdan.co.uk/",
     code: "https://github.com/rashdanm/portfolio",
   },
 ];
-
 export default projectInfo;

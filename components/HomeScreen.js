@@ -5,7 +5,7 @@ const HomeScreen = () => {
   return (
     <div
       id="home"
-      className="flex flex-col justify-center w-full h-screen bg-white"
+      className="flex flex-col justify-center w-full h-screen bg-white lg:px-20"
     >
       <div className="px-5 py-3 font-bold text-7xl">
         Hello, I'm <></>
@@ -62,7 +62,7 @@ const HomeScreen = () => {
       </div>
       <div className="pt-10">
         <Link activeClass="active" to="work" spy={true} smooth={true}>
-          <button class="ml-5 py-3 pl-4 pr-6 bg-transparent border-2 border-green-700 text-green-700 text-lg rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color duration-300 md:hover:animate-bounce">
+          <button className="py-3 pl-4 pr-6 ml-5 text-lg text-green-700 duration-300 bg-transparent border-2 border-green-700 rounded-lg hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-700 transition-color md:hover:animate-bounce">
             View Projects
           </button>
         </Link>

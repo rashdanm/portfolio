@@ -9,9 +9,15 @@ const TopNav = () => {
   ];
   return (
     <div className="">
-      <div className="z-50 hidden pr-5 m-0 bg-white md:w-full md:flex md:justify-end md:fixed">
+      <div className="z-50 hidden pr-20 m-0 bg-white md:w-full md:flex md:justify-end md:fixed">
         {navLinks.map((link) => (
-          <Link activeClass="active" to={link.navId} spy={true} smooth={true}>
+          <Link
+            key={link.id}
+            activeClass="active"
+            to={link.navId}
+            spy={true}
+            smooth={true}
+          >
             <div className="py-4 pl-6 font-semibold cursor-pointer hover:text-green-700 ">
               {link.navLink}
             </div>

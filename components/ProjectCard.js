@@ -13,9 +13,9 @@ const ProjectCard = ({
   code,
 }) => {
   return (
-    <div class="mb-4 w-full md:w-96 justify-center items-center bg-white shadow-lg rounded-lg flex flex-col md:m-8 border-4 border-green-700">
-      <div class="xl:w-full md:w-full p-1">
-        <div class="bg-white p-1 rounded-lg">
+    <div className="flex flex-col items-center justify-center w-full mb-4 bg-white border-4 border-green-700 rounded-lg shadow-lg md:w-96 md:m-8">
+      <div className="p-1 xl:w-full md:w-full">
+        <div className="p-1 bg-white rounded-lg">
           <a href={website} target="_blank" rel="noopener noreferrer">
             <Image
               className="rounded-lg cursor-pointer hover:animate-pulse"
@@ -51,8 +51,10 @@ const ProjectCard = ({
             </div>
           </div>
 
-          <h2 class="text-xl text-black title-font mb-2 font-bold">{title}</h2>
-          <div class="w-1/2 flex justify-between">
+          <h2 className="mb-2 text-xl font-bold text-black title-font">
+            {title}
+          </h2>
+          <div className="flex justify-between w-1/2">
             <Image
               className="hover:animate-spin"
               src={`/images/logos/${icon1}.png`}
@@ -84,11 +86,11 @@ const ProjectCard = ({
             />
           </div>
           <h5 className="mt-3 font-semibold text-green-700">Brief</h5>
-          <p class="leading-relaxed text-base">{brief}</p>
+          <p className="text-base leading-relaxed">{brief}</p>
           <h5 className="mt-3 font-semibold text-green-700">
             Technology & Tools
           </h5>
-          <p class="leading-relaxed text-base pb-5">{features}</p>
+          <p className="pb-5 text-base leading-relaxed">{features}</p>
         </div>
       </div>
     </div>

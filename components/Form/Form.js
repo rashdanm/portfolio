@@ -11,7 +11,6 @@ const Form = () => {
   const [message, setMessage] = useState("");
   const [buttonText, setButtonText] = useState("Send");
 
-  //  Form validation
   const [errors, setErrors] = useState({});
 
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -43,8 +42,6 @@ const Form = () => {
     return isValid;
   };
 
-  //   const [form, setForm] = useState(false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -72,7 +69,6 @@ const Form = () => {
         setShowFailureMessage(true);
         setButtonText("Send");
 
-        // Reset form fields
         setName("");
         setEmail("");
         setMessage("");
@@ -82,7 +78,8 @@ const Form = () => {
       setShowSuccessMessage(true);
       setShowFailureMessage(false);
       setButtonText("Send");
-      // Reset form fields
+
+      // Reset
       setName("");
       setEmail("");
       setMessage("");
@@ -145,7 +142,7 @@ const Form = () => {
       {errors?.message && (
         <p className="text-red-600">Message requires at least 50 characters.</p>
       )}
-      <div class="flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start">
         <ButtonSend buttonText={buttonText} />
       </div>
       <div className="text-left">

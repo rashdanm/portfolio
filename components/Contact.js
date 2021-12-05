@@ -4,15 +4,16 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col w-full px-5 py-5 bg-white lg:flex-row lg:h-screen lg:items-start"
+      className="flex flex-col w-full px-5 py-5 bg-white lg:flex-row lg:h-screen lg:items-start lg:px-20"
     >
       <div className="flex flex-col justify-center lg:w-2/4 md:pt-6 lg:pr-10">
         <div className="py-3 font-bold text-7xl lg:pt-6">
           Stay <span className="text-green-700">Connected</span>.
         </div>
         <p className="max-w-screen-sm text-lg">
-          If you want to give me job, then I'd love to hear from you. Simply
-          fill out the contact form or drop me an email.
+          If there's anything you'd like to ask me or if you'd just like to say
+          hello, then I'd love to hear from you. Simply fill out the contact
+          form or drop me an email.
         </p>
         <div className="flex pt-5 pb-5">
           <div className="pr-3">

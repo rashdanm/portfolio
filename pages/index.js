@@ -6,6 +6,7 @@ import Contact from "../components/Contact";
 import HomeScreen from "../components/HomeScreen";
 import MyWork from "../components/MyWork";
 import TopNav from "../components/TopNav";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
