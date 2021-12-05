@@ -62,8 +62,8 @@ const About = () => {
           <p className="pb-4 pr-5">
             Whilst most of my learning has been focused on the front-end, more
             so React, {`I'm`} always looking to improve and get more tools under
-            my belt. Therefore, I'm more than open to learning new skills and
-            technologies, whether {`it's`} on the back-end of development or
+            my belt. Therefore, {`I'm`} more than open to learning new skills
+            and technologies, whether {`it's`} on the back-end of development or
             even learning new framworks and languages.
           </p>
         </div>
