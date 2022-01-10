@@ -11,7 +11,7 @@ const Contact = () => {
           Stay <span className="text-green-700">Connected</span>.
         </div>
         <p className="max-w-screen-sm text-lg">
-          If {`there's`} anything {`you'd`} like to ask me or if {`you'd`}
+          If {`there's`} anything {`you'd`} like to ask me, or if {`you'd`} just
           like to say hello, then {`I'd`} love to hear from you. Simply fill out
           the contact form or drop me an email.
         </p>
