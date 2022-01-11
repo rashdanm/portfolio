@@ -40,7 +40,7 @@ const About = () => {
               loop: true,
               delay: 40,
               strings: [
-                "...and the rode to code.",
+                "...and the road to code.",
                 "...and the journey so far.",
               ],
             }}
